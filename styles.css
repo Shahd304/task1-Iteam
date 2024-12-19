@@ -48,11 +48,11 @@ color: yellowgreen;
     background-color: yellowgreen;
    
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:800px) {
     .card{
-        width: 300px;
+        width: 200px;
     }
     .card button{
-        width: 250px;
+        width: 180px;
     }
 }
