@@ -40,13 +40,19 @@ color: yellowgreen;
     font-size: 20px;
     border: none;
     margin-top: 15px;
-    transition: all 0.3s ease-in-out;
-    
+    transition: all 0.3s ease-in-out;   
 }
 .card button:hover {
     
     color: rgb(0, 0, 0);
     background-color: yellowgreen;
    
-    
+}
+@media screen and (max-width:768px) {
+    .card{
+        width: 300px;
+    }
+    .card button{
+        width: 250px;
+    }
 }
